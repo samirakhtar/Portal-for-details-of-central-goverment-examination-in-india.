@@ -1,0 +1,58 @@
+body{
+    background:url("download.jfif");
+    background-size:250px;
+    font-family:'Times New Roman', Times, serif;
+}
+.wrap{
+    max-width:350px;
+    border-radius:20px;
+    margin:auto;
+    background:rgba(0,0,0,0.8);
+    box-sizing:border-box;
+    padding:40px;
+    color:#ffff99;
+    margin-top:100px;
+}
+h2{
+    text-align : center;
+    
+}
+input[type=text],input[type=password],input[type=number]{
+    width: 100%;
+    box-sizing:border-box;
+    padding: 12px 5px;
+    background:rgba(0,0,0.0.10);
+    outline: none;
+    border:none;
+    border-bottom: 1px dotted #fff;
+    color:#123;
+    border-radius: 5px;
+    margin:5px;
+    font-weight: bold;
+}
+input[type=submit]{
+    width:100%;
+    box-sizing:border-box;
+    padding: 10px0;
+    margin-top:30px;
+    outline:none;
+    border:none;
+    background:#60adde;
+    opacity:0.7;
+    border-radius:20px;
+    font-size:20px;
+    color:white;
+ }
+ input [type=submit]:hover
+ {
+     background:#003366;
+     opacity: 0.7;
+ }
+
+ #mobno{
+     margin-left: 100px;
+ }
+ #signup{
+     margin-left: 10px;
+     
+ }

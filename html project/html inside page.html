@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+.main{
+    background:rgba(99,99,99,0.8);
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:100px;
+    text-align:center;
+    overflow:auto;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href='introduction of website.html' style="color:white">Home</a></li>
+            <li><a>Examination</a>
+                 <ul>
+                 <li><a onClick=exrail()>Indian Railway</a></li>
+                 <li><a onClick=exssc()>SSC</a></li>
+                 <li><a onClick=exupsc()>UPSC</a></li>
+                 <li><a onClick=exbpsc()>BPSC</a></li>
+                 <li><a onClick=exisro()>ISRO</a></li>
+             </ul>
+             </li>
+             <li><a>Eligibility</a>
+             <ul>
+             <li><a onClick='elrail()'>Indian Railway Eligibility</a></li>
+             <li><a onClick='elssc()'>SSC Eligibility</a></li>
+             <li><a onClick='elupsc()'>UPSC Eligibility</a></li>
+             <li><a onClick='elbpsc()'>BPSC Eligibility</a></li>
+             <li><a onClick='elisro()'>ISRO</a></li>
+             </ul>
+             </li>
+         
+             <li><a> Forms</a>
+                <ul>
+                    <li><a onClick='frail()'>Indian Railway Forms</a></li>
+                    <li><a onClick='fssc()'>SSC Forms</a></li>
+                    <li><a onClick='fupsc()'>UPSC Forms</a></li>
+                    <li><a onClick='fbpsc()'>BPSC Forms</a></li>
+                    <li><a onClick='fisro()'>ISRO Forms</a></li>
+             </ul>
+             </li>
+             <div class=main id=main>
+
+            </div>
+    </nav>
+
+<script language=javascript>
+    function fupsc(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='upsc/f1.png' width=70%><br><img src='upsc/f2.png' width=70%><br>"
+}
+function fbpsc(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='bpsc/f1.jpg' width=70%>"
+}
+function fisro(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='isro/f1.jpg' width=70%>"
+}
+function exisro(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='isro/in1.png' width=70%><br><img src='isro/in2.png' width=70%><br><img src='isro/in3.png' width=70%><br><img src='isro/in4.png' width=70%>"
+}
+function elisro(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='isro/el1.png' width=70%><br><img src='isro/el2.png' width=70%><br><img src='isro/el3.png' width=70%><br><img src='isro/el4.png' width=70%>"
+}
+function elbpsc(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='bpsc/el1.png' width=70%><br><img src='bpsc/el2.png' width=70%><br><img src='bpsc/3.png' width=70%><br><img src='isro/in4.png' width=70%>"
+}
+function elupsc(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='upsc/el1.png' width=70%><br><img src='upsc/el2.png' width=70%><br><img src='upsc/el3.png' width=70%><br><img src='isro/in4.png' width=70%>"
+}
+function exbpsc(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='bpsc/in1.png' width=70%><br><img src='bpsc/in2.png' width=70%><br><img src='bpsc/in3.png' width=70%>"
+}
+function exupsc(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='upsc/in1.png' width=70%><br><img src='upsc/in2.png' width=70%><br><img src='upsc/in3.png' width=70%>"
+}
+function exssc(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='ssc/in1.png' width=70%><br><img src='ssc/in2.png' width=70%><br><img src='ssc/in3.png' width=70%>"
+}
+function elssc(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='ssc/el1.png' width=70%><br><img src='ssc/el2.png' width=70%>"
+}
+function frail(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='railways/rf1.png' width=70%><br><img src='railways/rf2.png' width=70%>"
+}
+function exrail(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='railways/rin1.png' width=70%><br><img src='railways/rin2.png' width=70%><img src='railways/rin3.png' width=70%>"
+}
+function elrail(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='railways/el1.png' width=70%><br><img src='railways/el2.png' width=70%><img src='railways/el3.png' width=70%><img src='railways/el4.png' width=70%><img src='railways/el5.png' width=70%>"
+}
+function fssc(){
+    var a=document.getElementById("main");
+    a.innerHTML="<img src='railways/el1.png' width=70%><br><img src='railways/el2.png' width=70%><img src='railways/el3.png' width=70%><img src='railways/el4.png' width=70%><img src='railways/el5.png' width=70%>"
+}
+    </script>
+</body>
+</html>

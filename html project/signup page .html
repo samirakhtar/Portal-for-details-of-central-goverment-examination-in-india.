@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta char set="utf-8">
+<title>Transparent login form </title>
+<link rel="stylesheet"href="signup.css"
+<body>
+<div class="login-box">
+    <form onsubmit="check()" name=f1>
+<h1> login </h1>
+<div class="textbox">
+    <i class="fa fa-user" aria-hidden="true"></i>
+<input type="text" placeholder="username" name="" value="" id=t1>
+</div>
+<div class="textbox">
+    <i class="fa fa-lock"aria-hidden="true"></i>
+<input type="password"placeholder="password"name=""value="" id=t2>
+</div>
+<a href=''><input class="btn" type="submit" name="" value="LOG IN"></a>
+<a href='1st page of html project.html'><input class="btn" type="button" name="" value="NEW? signup..."></a>
+</form>
+</div>
+<script language="javascript">
+function check(){
+var a=document.getElementById("t1").value;
+var b=document.getElementById("t2").value;
+if(a=="samiraktaroo7" && b=="123456"){
+    alert("hi, "+a);
+    document.f1.action="html inside page.html";
+}
+else{
+    alert("Invalid User");
+    document.f1.reset();
+}
+
+}
+    </script>
+</body>
+</html>

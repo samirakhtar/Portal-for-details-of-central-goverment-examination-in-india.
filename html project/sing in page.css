@@ -1,0 +1,19 @@
+body{
+    background:url("1200px-Emblem_of_the_Supreme_Court_of_India.svg.png") no-repeat;
+    background-size:35% 100%;
+    background-position-x:50%;
+      font-family:'Times New Roman', Times, serif;
+      z-index:1;
+      margin:0;
+}
+p{
+  z-index:3;
+  color:#fff;
+  background:rgba(00,00,00,0.6);
+  padding:15px;
+}
+
+h1{
+z-index:2;
+color:red;
+}
